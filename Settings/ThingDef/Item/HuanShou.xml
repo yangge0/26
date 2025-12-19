@@ -1,0 +1,24 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_HuanShou" Parent="ToolBase">
+	<ThingName>八荒唤兽旗</ThingName>
+	<TexPath>Spr\Building\HuanShou.png</TexPath>
+	<TexScale>1.8</TexScale>
+	<Rate>10</Rate>
+	<Desc>传闻可以控制妖兽进行攻击的旗子。</Desc>
+	<ElementKind>None</ElementKind>
+	<Item Kind="Equipment">
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_StarEssence" count = "3"/>
+			</CostItems>
+		</BeMade> 
+		<UseLua>world:EnterUILuaMode('Lua_CallYaoShouAtk',bind)</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+
+
+</List></ThingDefs>

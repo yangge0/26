@@ -1,0 +1,11 @@
+﻿<RelationDefs><List>
+	<Relation Name="Concubine">
+		<AutoGentrate>0</AutoGentrate>
+		<DisplayNameF>小妾</DisplayNameF>
+		<DisplayNameM>丈夫</DisplayNameM>
+		<InCache>0</InCache>
+	</Relation>
+
+
+	
+</List></RelationDefs>

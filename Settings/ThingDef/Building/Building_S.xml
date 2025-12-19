@@ -1,0 +1,438 @@
+﻿<ThingDefs><List>
+
+	<ThingDef Type="Building" Name="S_XICHUANG" Parent="FurnitureBase">
+	<TexPath>Spr\Building\xichuang.png</TexPath>
+	<TexScale>0.42</TexScale>
+	<ThingName>囍床</ThingName>	
+	<Desc>一张适合新婚夫妇使用的大床。</Desc>
+	<Tags>
+		<Tag Name="Sleep" Level="2"/>
+		<Tag Name="Practice" Level="2"/>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>0.3</y>
+	</ShadowSize>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[7,5],
+		[1,1],
+		</Data>
+		<Offset>
+			<y>-0.1</y>
+			<x>0.5</x>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0.14" Y="-0.29" Z="-0.5" Ang="180"/>
+			<li Index="1"  X="-0.16" Y="-0.29" Z="-0.5" Ang="180"/>
+		</WorkOffset>
+	</Collider>
+	
+	<Building>
+		<RoomKind>BedRoom</RoomKind>
+		<IsBed>1</IsBed>
+		<OwnerCount>2</OwnerCount>
+		<HelperClass>BuildingHelperBed</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<RestEffectiveness>1.5</RestEffectiveness>
+		
+		<PracticeEffectiveness>0.4</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>60</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>50</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>3.75</y>
+			<z>1.5</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	
+
+	<ThingDef Type="Building" Name="S_XICHUANG2" Parent="FurnitureBase">
+	<TexPath>Spr\Building\xichuang2.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>高级囍床</ThingName>	
+	<Desc>一张适合新婚夫妇使用的大床。</Desc>
+	<Tags>
+		<Tag Name="Sleep" Level="3"/>
+		<Tag Name="Practice" Level="2"/>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>0.3</y>
+	</ShadowSize>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[7,5],
+		[1,1],
+		</Data>
+		<Offset>
+			<y>0.5</y>
+			<x>0.5</x>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0.14" Y="-0.29" Z="-0.5" Ang="180"/>
+			<li Index="1"  X="-0.16" Y="-0.29" Z="-0.5" Ang="180"/>
+		</WorkOffset>
+	</Collider>
+	
+	<Building>
+		<RoomKind>BedRoom</RoomKind>
+		<IsBed>1</IsBed>
+		<OwnerCount>2</OwnerCount>
+		<HelperClass>BuildingHelperBed</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<RestEffectiveness>1.8</RestEffectiveness>
+		<PracticeEffectiveness>0.6</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>60</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>80</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>3.75</y>
+			<z>1.5</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Building" Name="S_XICHUANG3" Parent="FurnitureBase">
+	<TexPath>Spr\Building\xichuang3.png</TexPath>
+	<TexScale>0.5</TexScale>
+	<ThingName>多人囍床</ThingName>	
+	<Desc>一张适合拥有多个配偶使用的大床。</Desc>
+	<Tags>
+		<Tag Name="Sleep" Level="4"/>
+		<Tag Name="Practice" Level="2"/>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>0.3</y>
+	</ShadowSize>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[5,5,5,7,5,5,5],
+		[1,1,1,1,1,1,1],
+		</Data>
+		<Offset>
+			<y>-0.05</y>
+			<x>0</x>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0.14" Y="0.3" Z="-0.5" Ang="180"/>
+			<li Index="1"  X="0" Y="0.3" Z="-0.5" Ang="180"/>
+			<li Index="2"  X="0.9" Y="0.3" Z="-0.5" Ang="180"/>
+			<li Index="3"  X="-0.9" Y="1" Z="-0.5" Ang="180"/>
+			<li Index="4"  X="1.5" Y="0.3" Z="-0.5" Ang="180"/>
+			<li Index="5"  X="-1.5" Y="0.3" Z="-0.5" Ang="180"/>
+			<li Index="6"  X="1.8" Y="0.3" Z="-0.5" Ang="180"/>
+		</WorkOffset>
+	</Collider>
+	
+	<Building>
+		<RoomKind>BedRoom</RoomKind>
+		<IsBed>1</IsBed>
+		<OwnerCount>7</OwnerCount>
+		<HelperClass>BuildingHelperBed</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<RestEffectiveness>2</RestEffectiveness>
+		
+		<PracticeEffectiveness>0.8</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>500</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>300</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>3.75</y>
+			<z>1.5</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<ThingDef Type="Building" Name="S_YINGER" Parent="OrnamentBase">
+	<TexPath>Spr\Building\yinger.png</TexPath>
+	<TexScale>0.4</TexScale>
+	<ThingName>婴儿培养桌</ThingName>	
+	<Tags>
+	</Tags>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1],
+		[1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<BePackage>0</BePackage>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>200</CostStuffCount>
+		</BeMade>		
+	</Building>
+	<StoryBnts>
+		<li Name="培养" Desc="培养婴儿的能力。" Story="Story_YingEr" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
+	</StoryBnts>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="S_ZHUAZHOU" Parent="OrnamentBase">
+	<TexPath>Spr\Building\zhuazhou.png</TexPath>
+	<TexScale>0.38</TexScale>
+	<ThingName>婴儿抓周桌</ThingName>	
+	<Tags>
+	</Tags>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1,1],
+		[1,1,2,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<BePackage>0</BePackage>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>200</CostStuffCount>
+		</BeMade>		
+	</Building>
+	<StoryBnts>
+		<li Name="抓周" Desc="抓周。" Story="Story_ZhuaZhou" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
+	</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="S_HAITONG" Parent="OrnamentBase">
+	<TexPath>Spr\Building\haitong.png</TexPath>
+	<TexScale>0.38</TexScale>
+	<ThingName>孩童培养桌</ThingName>	
+	<Tags>
+	</Tags>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1,1],
+		[1,1,2,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<BePackage>0</BePackage>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>200</CostStuffCount>
+		</BeMade>		
+	</Building>
+	<StoryBnts>
+		<li Name="培养" Desc="培养孩童的能力。" Story="Story_HaiTong1" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
+	</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="S_SHAONIAN" Parent="OrnamentBase">
+	<TexPath>Spr\Building\shaonian.png</TexPath>
+	<TexScale>0.4</TexScale>
+	<ThingName>少年培养桌</ThingName>	
+	<Tags>
+	</Tags>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1],
+		[1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<BePackage>0</BePackage>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>200</CostStuffCount>
+		</BeMade>		
+	</Building>
+	<StoryBnts>
+		<li Name="培养" Desc="培养少年的能力。" Story="Story_ShaoNian" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+	<ThingDef Type="Building" Name="S_TML" Parent="ProductionBase">
+	<TexPath>Spr\Building\TML.png</TexPath>
+	<Desc>天命轮算尽世间天命。</Desc>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>
+	<ThingName>天命轮</ThingName>	
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1],
+		[1,5],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0.48</x>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0" Y="0" Ang="1"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<NoFengshui>1</NoFengshui>
+		<NoFight>1</NoFight>
+		<BePackage>0</BePackage>
+		<WorkAnimation>produce</WorkAnimation>
+		<CanMakeRoom>0</CanMakeRoom>
+		<BeMade>
+			<WorkToMake>1000</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>500</CostStuffCount>
+		</BeMade>
+		<ProducePriority>1</ProducePriority>
+		<ProduceKind>Handwork</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_HuanShou</ThingDef>
+				<Display>八荒唤兽旗</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_BYT</ThingDef>
+				<Display>避孕套</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>		
+	</Building>
+	<StoryBnts>
+		<li Name="天命" Desc="使用天命轮的能力。" Story="Story_TML" Cost="8" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
+	</StoryBnts>
+	</ThingDef>
+
+
+	<ThingDef Type="Building" Name="S_GEY" Parent="OrnamentBase">
+	<TexPath>Spr\Building\GEY.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>孤儿院</ThingName>	
+	<Desc>与【修真聊天群】联动功能，玩家可以在安装【修真聊天群】模组的情况下，将诞生的婴儿选择是否遗弃，倘若遗弃婴儿将进入孤儿院名单中供其他玩家领养。</Desc>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,2,1,0],
+		[1,4,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0.48</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<BePackage>0</BePackage>
+		<BeMade>
+			<WorkToMake>800</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>300</CostStuffCount>
+		</BeMade>
+	</Building>
+	<StoryBnts>
+		<li Name="领养" Desc="可以领养其他门派遗弃的孤儿。" Story="Story_GEY" Cost="15" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
+	</StoryBnts>
+	</ThingDef>
+	
+
+
+</List></ThingDefs>

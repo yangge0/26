@@ -1,0 +1,33 @@
+﻿<ThingDefs><List>	
+
+	<ThingDef Type="Item" Name="Item_BYT" Parent="ToolBase">
+	<Tags>
+	</Tags>
+	<ThingName>避孕套</ThingName>
+	<MaxStack>1</MaxStack>
+	<TexPath>Spr\Building\BYT.png</TexPath>
+	<TexScale>1</TexScale>
+	<Desc>从古至今广为流传的避孕工具，可以有效避孕。</Desc>
+	<Flammability>
+		<Flammability>0.5</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Item Kind="Equipment">
+		<FabaoSuffix>套</FabaoSuffix>
+		<PhysicalLables>
+			<li>Elastic</li>
+		</PhysicalLables>
+		<FuelMultiplier>1</FuelMultiplier>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "Leather"/>
+			</StuffCategories>
+			<CostStuffCount>30</CostStuffCount>
+		</BeMade> 
+	</Item>
+	</ThingDef>
+	
+</List></ThingDefs>

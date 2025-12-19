@@ -1,0 +1,104 @@
+﻿<MoodDefs><List>
+
+	<Mood Name="HuaiYun">
+		<DisplayName>怀孕</DisplayName>
+		<Desc>我感觉肚子里的孩子在踢我的肚子，小淘气！</Desc>
+		<StoryDesc>不知道还有多久孩子就要出生了！</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<Value>30</Value>
+		<Duration>0</Duration>
+	</Mood>
+
+
+	<Mood Name="QiMiao">
+		<DisplayName>世界</DisplayName>
+		<Desc>这个世界原来这么有意思！</Desc>
+		<StoryDesc>对自己出生的世界的感叹！</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<Value>15</Value>
+		<Duration>0</Duration>
+	</Mood>
+
+	<Mood Name="HaoQi">
+		<DisplayName>好奇</DisplayName>
+		<Desc>这里的东西我都没有用过哎！</Desc>
+		<StoryDesc>对周围的新鲜事物感到好奇！</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<Value>15</Value>
+		<Duration>0</Duration>
+	</Mood>
+
+	<Mood Name="MengXiang">
+		<DisplayName>梦想</DisplayName>
+		<Desc>我要成为海贼王！</Desc>
+		<StoryDesc>有了一个远大的目标！</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<Value>15</Value>
+		<Duration>0</Duration>
+	</Mood>
+
+	<Mood Name="ZhuHe">
+		<DisplayName>祝贺</DisplayName>
+		<Desc>目睹了婚礼，真的是太幸福了，祝他们白头偕老！</Desc>
+		<StoryDesc>婚礼好隆重哦！</StoryDesc>
+		<MaxStack>10</MaxStack>
+		<Value>30</Value>
+		<Duration>5</Duration>
+	</Mood>
+
+	<Mood Name="TaoKong">
+		<DisplayName>掏空</DisplayName>
+		<Desc>呼...最近感觉营养跟不上呀！</Desc>
+		<StoryDesc>累！！！</StoryDesc>
+		<MaxStack>10</MaxStack>
+		<Value>-15</Value>
+		<Duration>1</Duration>
+	</Mood>
+
+	<Mood Name="ShuFu">
+		<DisplayName>舒服</DisplayName>
+		<Desc>感觉人生到达了高潮！</Desc>
+		<StoryDesc>爽！！！</StoryDesc>
+		<MaxStack>10</MaxStack>
+		<Value>30</Value>
+		<Duration>1</Duration>
+	</Mood>
+
+	<Mood Name="BaBa">
+		<DisplayName>兴奋</DisplayName>
+		<Desc>我的老婆怀孕了！我要当爸爸了！</Desc>
+		<StoryDesc>高兴的无法形容！</StoryDesc>
+		<MaxStack>10</MaxStack>
+		<Value>30</Value>
+		<Duration>60</Duration>
+	</Mood>
+
+	<Mood Name="DanSheng">
+		<DisplayName>诞生</DisplayName>
+		<Desc>我的孩子终于诞生了！！！</Desc>
+		<StoryDesc>太激动了！</StoryDesc>
+		<MaxStack>10</MaxStack>
+		<Value>30</Value>
+		<Duration>15</Duration>
+	</Mood>
+
+	<Mood Name="SiShou">
+		<DisplayName>厮守</DisplayName>
+		<Desc>我将要和我的另一半下半辈子长相厮守！</Desc>
+		<StoryDesc>白头偕老！</StoryDesc>
+		<MaxStack>10</MaxStack>
+		<Value>30</Value>
+		<Duration>0</Duration>
+	</Mood>
+
+
+	<Mood Name="MAMABABA">
+		<DisplayName>父母弃婴</DisplayName>
+		<Desc>我的爸爸妈妈在哪里？呜呜呜。。。</Desc>
+		<StoryDesc>我是个孤儿，呜呜呜。。。</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<Value>-20</Value>
+		<Duration>0</Duration>
+	</Mood>
+
+</List></MoodDefs>

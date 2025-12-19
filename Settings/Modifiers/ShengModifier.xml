@@ -1,0 +1,206 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="YingErShi" Type="Normal">
+		<DisplayName>随地大便</DisplayName>
+		<LuaClassName>YINGERSHI</LuaClassName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+	</Modifier> 
+	
+	<Modifier Name="NewMan" Type="Normal">
+		<DisplayName>新人-男</DisplayName>
+		<NpcModPath>man/man.FBX</NpcModPath>
+		<ModScale>0.3</ModScale>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+	</Modifier>
+
+	<Modifier Name="NewWoMan" Type="Normal">
+		<DisplayName>新人-女</DisplayName>
+		<NpcModPath>woman/woman.FBX</NpcModPath>
+		<ModScale>0.3</ModScale>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+	</Modifier>
+
+	<Modifier Name="TimeCold" Type="Normal">
+		<DisplayName>培养间隔</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+	</Modifier> 
+
+
+	<Modifier Name="LunHui_God2" Type="Normal">
+		<DisplayName>真仙转世</DisplayName>
+		<Desc>此人上一世乃在世真仙。\n五维加一\n心情基础值+30\n心境基础值+15\n修炼速度+100%</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="30"/>
+			<li Name="MindStateBaseValue" AddV="15"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LunHui_God" Type="Normal">
+		<DisplayName>元神转世</DisplayName>
+		<Desc>此人上一世曾修至元神期。\n五维增加\n心情基础值+30\n心境基础值+10\n修炼速度+50%</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="30"/>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LunHui_Dan2" Type="Normal">
+		<DisplayName>金丹转世</DisplayName>
+		<Desc>此人上一世曾修至金丹期。\n五维小幅增加\n心情基础值+30\n心境基础值+10\n修炼速度+30%</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.2,0.2,0.2,0.2,0.2</BaseFive>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="30"/>
+			<li Name="MindStateBaseValue" AddV="10"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.3"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LunHui_Dan1" Type="Normal">
+		<DisplayName>结丹转世</DisplayName>
+		<Desc>此人上一世曾修至结丹期。\n心情基础值+20\n心境基础值+5</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="20"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LunHui_Qi" Type="Normal">
+		<DisplayName>练气转世</DisplayName>
+		<Desc>此人上一世曾修至练气期。\n心情基础值+10</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="10"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="WU_GOD" Type="Normal">
+		<DisplayName>无-真仙遗传</DisplayName>
+		<Desc>此人的父母是无属性在世真仙，所以得到了其父母的遗传。\n道行减少二十\n五维增加\n心情基础值+15\n心境基础值+5\n修炼速度+50%</Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-20"/>
+			<li Name="BaseEmotionAddV" AddV="15"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="JIN_GOD" Type="Normal">
+		<DisplayName>金-真仙遗传</DisplayName>
+		<Desc>此人的父母是金属性在世真仙，所以得到了其父母的遗传。\n增加法宝栏一\n五维增加\n心情基础值+15\n心境基础值+5\n修炼速度+50%</Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="BaseEmotionAddV" AddV="15"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="MU_GOD" Type="Normal">
+		<DisplayName>木-真仙遗传</DisplayName>
+		<Desc>此人的父母是木属性在世真仙，所以得到了其父母的遗传。\n天谴减少10点\n五维增加\n心情基础值+15\n心境基础值+5\n修炼速度+50%</Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-10"/>
+			<li Name="BaseEmotionAddV" AddV="15"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="SHUI_GOD" Type="Normal">
+		<DisplayName>水-真仙遗传</DisplayName>
+		<Desc>此人的父母是水属性在世真仙，所以得到了其父母的遗传。\n增加180点灵气最大值\n五维增加\n心情基础值+15\n心境基础值+5\n修炼速度+50%</Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="180"/>
+			<li Name="BaseEmotionAddV" AddV="15"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="HUO_GOD" Type="Normal">
+		<DisplayName>火-真仙遗传</DisplayName>
+		<Desc>此人的父母是火属性在世真仙，所以得到了其父母的遗传。\n五维增加\n心情基础值+15\n心境基础值+5\n修炼速度+120%</Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="BaseEmotionAddV" AddV="15"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1.2"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="TU_GOD" Type="Normal">
+		<DisplayName>土-真仙遗传</DisplayName>
+		<Desc>此人的父母是土属性在世真仙，所以得到了其父母的遗传。\n增加护盾强度加成\n五维增加\n心情基础值+15\n心境基础值+5\n修炼速度+50%</Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0.5,0.5,0.5,0.5,0.5</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.4"/>
+			<li Name="BaseEmotionAddV" AddV="15"/>
+			<li Name="MindStateBaseValue" AddV="5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+
+
+</List></ModifierDefs>

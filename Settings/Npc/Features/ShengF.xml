@@ -1,0 +1,126 @@
+﻿<FeatureDefs><List>
+
+	<Feature Name="YingEr" Type="Backstory">
+		<DisplayName>婴儿</DisplayName>
+		<Desc>这个婴儿还没有长大，虽然是个哪吒，但是没法做工作。</Desc>
+		<HideInUI>-1</HideInUI>
+		<ModifierDef>
+		<Close>
+			<li>YingEr</li>
+		</Close>
+			<Properties>
+				<li Name="SpeedOfMindStateCoefficient" AddP="-5"/>
+				<li Name="MoveSpeed" AddV="-2"/>
+				<li Name="MindStateBaseValue" AddV="-30"/>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-8"/>
+			</Properties>
+			<BanJobs>
+				<li>Xiulian</li>
+				<li>OutFire</li>
+				<li>Treat</li>
+				<li>Cooking</li>
+				<li>Build</li>
+				<li>Hunting</li>
+				<li>Plant</li>
+				<li>Mine</li>
+				<li>Cutoff</li>
+				<li>Sew</li>
+				<li>Smithing</li>
+				<li>Handwork</li>
+				<li>Clean</li>
+			</BanJobs>
+			<Moods>
+				<li>QiMiao</li>
+			</Moods>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="HaiTong" Type="Backstory">
+		<DisplayName>孩童</DisplayName>
+		<Desc>这个孩子还小，记得往死里搞，玩心好奇心重，没法做重工作。</Desc>
+		<HideInUI>-1</HideInUI>
+		<ModifierDef>
+		<Close>
+			<li>HaiTong</li>
+		</Close>
+			<Properties>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-3"/>
+				<li Name="SpeedOfMindStateCoefficient" AddP="-3"/>
+				<li Name="MindStateBaseValue" AddV="-15"/>
+			</Properties>
+			<BanJobs>
+				<li>Handwork</li>
+				<li>Mine</li>
+				<li>Build</li>
+				<li>OutFire</li>
+			</BanJobs>
+			<Moods>
+				<li>HaoQi</li>
+			</Moods>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="ShaoNian" Type="Backstory">
+		<DisplayName>少年</DisplayName>
+		<Desc>当初的孩童已经成为少年，向着他所向往的方向努力前进，但心性还不太稳定。</Desc>
+		<HideInUI>-1</HideInUI>
+		<ModifierDef>
+		<Close>
+			<li>ShaoNian</li>
+		</Close>
+			<Properties>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+				<li Name="SpeedOfMindStateCoefficient" AddP="1"/>
+				<li Name="MindStateBaseValue" AddV="-5"/>
+			</Properties>
+			<Moods>
+				<li>MengXiang</li>
+			</Moods>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="YunFu" Type="Backstory">
+		<DisplayName>孕妇</DisplayName>
+		<Desc>这位将要成为母亲的人，现在内心非常的激动，等待着肚子里的小生命诞生！她暂时不能从事重工作！</Desc>
+		<HideInUI>-1</HideInUI>
+		<ModifierDef>
+		<Close>
+			<li>YunFu</li>
+		</Close>
+			<Properties>
+				<li Name="MoveSpeed" AddV="-1"/>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+				<li Name="MindStateBaseValue" AddV="-25"/>
+			</Properties>
+			<BanJobs>
+				<li>Handwork</li>
+				<li>Mine</li>
+				<li>Build</li>
+				<li>OutFire</li>
+			</BanJobs>
+			<Moods>
+				<li>HuaiYun</li>
+			</Moods>
+		</ModifierDef>
+	</Feature>
+
+	<Feature Name="GuEr" Type="Backstory">
+		<DisplayName>孤儿</DisplayName>
+		<Desc>生下来就被父母给抛弃在路边，幸好有一位路过的老爷爷把他捡到孤儿院里，才得以不丧失性命。</Desc>
+		<HideInUI>-1</HideInUI>
+		<ModifierDef>
+		<Close>
+			<li>GuEr</li>
+		</Close>
+			<Properties>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1"/>
+				<li Name="MindStateBaseValue" AddV="-5"/>
+			</Properties>
+			<Moods>
+				<li>MAMABABA</li>
+			</Moods>
+		</ModifierDef>
+	</Feature>
+
+
+</List></FeatureDefs>
